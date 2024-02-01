@@ -19,7 +19,7 @@
       community.docker.docker_login:
         registry_url: https://index.docker.io/v1/
         username: mvpar
-        password: 9640231374
+        password: ******
 
     - name: Push image
       command: docker push mvpar/petstore:latest
